@@ -100,6 +100,7 @@ nav h1 {
 
 #titleSect2 {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #imgSect2 {
@@ -140,6 +141,58 @@ nav h1 {
   padding: 15px 30px;
   border-radius: 3px;
   margin: 20px;
+}
+
+#sect3 {
+  padding: 100px 0;
+  max-width: 1180px;
+  margin: auto;
+}
+#sect3 img {
+  border-radius: 100px;
+  border: 8px solid #d7d7d7;
+}
+#sect3 h4 {
+  color: #484848;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#sect3 h5 {
+  font-weight: 100;
+  color: rgba(176, 176, 176, 0.7490196078);
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#sect3 p {
+  color: #767676;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+#titleSect3 {
+  margin-bottom: 80px;
+}
+
+.rowSect3 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.rowFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rowFlex div {
+  margin: 20px;
+}
+
+.txtSectL {
+  text-align: right;
+}
+
+.txtSectR {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
