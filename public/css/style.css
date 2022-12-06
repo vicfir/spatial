@@ -230,4 +230,66 @@ footer i {
   margin: 0 20px;
 }
 
+h2, h3 {
+  padding: 0 30px;
+}
+
+.titleDark {
+  font-size: 30px;
+}
+
+.subtitleDark {
+  font-size: 20px;
+}
+
+header {
+  background-size: cover;
+}
+header nav {
+  flex-direction: column;
+}
+header #navbar {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+header #navbar a {
+  margin: 10px;
+}
+
+#sect1 #titleSect1 {
+  text-align: center;
+}
+
+#sect2 .card {
+  margin: 10px;
+}
+
+#sect3 {
+  text-align: center;
+}
+#sect3 .rowSect3 {
+  flex-direction: column;
+}
+#sect3 .rowFlex {
+  flex-direction: column-reverse;
+}
+#sect3 .r {
+  flex-direction: column;
+}
+#sect3 .txtSectR {
+  text-align: center;
+}
+#sect3 .txtSectL {
+  text-align: center;
+}
+
+#sect4 {
+  background-size: cover;
+}
+
+footer {
+  padding: 50px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
