@@ -30,7 +30,7 @@ nav h1 {
 
 #navbar a {
   text-decoration: none;
-  color: #a9a9a9;
+  color: #c3c3c3;
   font-size: 15px;
   margin: 3vh;
 }
@@ -44,7 +44,7 @@ nav h1 {
   font-size: 50px;
 }
 #headerTitle p {
-  color: #a9a9a9;
+  color: #c3c3c3;
 }
 
 .btn {
@@ -55,6 +55,40 @@ nav h1 {
   padding: 15px 30px;
   border-radius: 3px;
   margin: 20px;
+}
+
+#sect1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+#titleSect1 {
+  width: 400px;
+}
+#titleSect1 h2 {
+  font-size: 40px;
+  line-height: 65px;
+  margin: 0;
+  color: #484848;
+}
+#titleSect1 h3 {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 100;
+  color: #aeaab4;
+  margin-top: 0;
+}
+
+#txtSect1 {
+  width: 450px;
+}
+#txtSect1 p {
+  margin-top: 0;
+  line-height: 30px;
+  margin-left: 50px;
+  color: #868686;
 }
 
 /*# sourceMappingURL=style.css.map */
