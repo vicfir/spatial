@@ -222,54 +222,58 @@ footer
         margin: 0 20px
 
 
-//----------------RESPONSIVE-------------------
-@media screen  and (max-width:420px)
-h2,h3
-    padding: 0 30px
-.titleDark
-    font-size: 30px
-.subtitleDark
-    font-size: 20px
+//----------------RESPONSIVE-------------------//
+@media screen and ( max-width: 420px  )
 
-header
-    background-size: cover
+    h2,h3
+        padding: 0 30px
 
-    nav
-        flex-direction: column
+    .titleDark
+        font-size: 30px
 
-    #navbar
-        display: flex
-        text-align: center
-        flex-direction: column
+    .subtitleDark
 
-        a
+        font-size: 20px
+
+    header
+        background-size: cover
+
+        nav
+            flex-direction: column
+
+        #navbar
+            display: flex
+            text-align: center
+            flex-direction: column
+
+            a
+                margin: 10px
+
+    #sect1
+        #titleSect1
+            text-align: center
+
+    #sect2
+        .card
             margin: 10px
 
-#sect1
-    #titleSect1
+    #sect3
         text-align: center
 
-#sect2
-    .card
-        margin: 10px
+        .rowSect3
+            flex-direction: column
+        .rowFlex
+            flex-direction: column-reverse
+        .r
+            flex-direction: column
+        
+        .txtSectR
+            text-align: center
+        .txtSectL
+            text-align: center
 
-#sect3
-    text-align: center
+    #sect4
+        background-size: cover
 
-    .rowSect3
-        flex-direction: column
-    .rowFlex
-        flex-direction: column-reverse
-    .r
-        flex-direction: column
-    
-    .txtSectR
-        text-align: center
-    .txtSectL
-        text-align: center
-
-#sect4
-    background-size: cover
-
-footer
-    padding: 50px 0
+    footer
+        padding: 50px 0
